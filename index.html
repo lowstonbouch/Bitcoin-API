@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Bitcoin</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <header>
+      <h1>Market Price (Bitcoin)</h1>
+      <div id="button-currency-field" class = "section-button currency">
+          <button id = "currency-USD">USD</button>
+          <button id = "currency-EUR">EUR</button>
+          <button id = "currency-GBP">GBP</button>
+        </div>
+  </header>
+  <section class = "content">
+      <div id="chart_div" class="graf"></div>
+      <div id="button-field" class = "section-button">
+        <button id = "button-year">1 year</button>
+        <button id = "button-month">1 month</button>
+        <button id = "button-week">1 week</button>
+      </div>
+  </section>
+
+
+  <script async src="./js/script.js"></script>
+</body>
+
+</html>
